@@ -1,20 +1,26 @@
-# Fixed-Seed Benchmark Code and Data (Paper Companion)
+# Reviewer-Focused Code and Data Package
 
-This package contains code and raw result data for the manuscript:
+This repository contains the core reproducibility artifacts for the manuscript:
 "Reward-Modulated Local Learning in Spiking Encoders: Controlled Benchmarks with STDP and Hybrid Rate Readouts".
 
-## Structure
-- `code/tools/`: Python scripts used to run benchmarks and build tables/figures.
-- `data/results/`: Raw CSV outputs used as source-of-truth for reported aggregates.
-- `docs/`: Minimal metadata and submission notes.
+## Contents
+- `code/tools/`: core run scripts + OpenML integrity checker.
+- `data/results/`: raw fixed-seed CSV outputs used for reported metrics.
 
-## Recommended quick checks
-From this folder root:
+## One-command reviewer check
+From repository root, run:
 
 ```bash
 python code/tools/verify_openml_provenance.py
 ```
 
-## Notes
-- Results are fixed-seed and intended for reproducibility/audit workflows.
-- Aggregate numbers should be recomputed from CSV files in `data/results/`.
+Expected result:
+- CSV integrity pass (`30 rows`, complete `6 conditions x 5 seeds`)
+- Printed condition means/std and key deltas for quick verification.
+
+## Raw result files
+- `data/results/baselines_raw.csv`
+- `data/results/ablations_raw.csv`
+- `data/results/split_robustness_raw.csv`
+- `data/results/temporal_synthetic_raw.csv`
+- `data/results/openml_benchmark_raw.csv`
