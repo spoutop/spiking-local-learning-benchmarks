@@ -1,0 +1,11 @@
+benchmark,condition,seed,test_accuracy,macro_f1,train_time_s,infer_time_ms_per_sample,notes
+temporal_order_synthetic,count_readout_local,11,50.000000,0.333333,0.113392,0.000007,phase_temporal_synthetic
+temporal_order_synthetic,count_readout_local,23,49.375000,0.476554,0.112824,0.000007,phase_temporal_synthetic
+temporal_order_synthetic,count_readout_local,37,49.791667,0.332406,0.113651,0.000007,phase_temporal_synthetic
+temporal_order_synthetic,count_readout_local,41,51.875000,0.341564,0.112478,0.000007,phase_temporal_synthetic
+temporal_order_synthetic,count_readout_local,53,50.208333,0.377114,0.111981,0.000007,phase_temporal_synthetic
+temporal_order_synthetic,timebin_readout_local,11,85.000000,0.849624,0.111304,0.000008,phase_temporal_synthetic
+temporal_order_synthetic,timebin_readout_local,23,83.333333,0.833330,0.113910,0.000008,phase_temporal_synthetic
+temporal_order_synthetic,timebin_readout_local,37,85.833333,0.858311,0.113752,0.000008,phase_temporal_synthetic
+temporal_order_synthetic,timebin_readout_local,41,85.625000,0.856144,0.112432,0.000008,phase_temporal_synthetic
+temporal_order_synthetic,timebin_readout_local,53,83.333333,0.833330,0.113451,0.000008,phase_temporal_synthetic
