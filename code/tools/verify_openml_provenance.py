@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reviewer quick-check for fixed-seed OpenML CSV integrity and headline contrasts."""
+"""Quick check for fixed-seed OpenML CSV integrity and headline contrasts."""
 
 import csv
 import os
