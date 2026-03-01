@@ -1,4 +1,4 @@
-# Reviewer-Focused Code and Data Package
+# Code and Data Package
 
 This repository contains the core reproducibility artifacts for the manuscript:
 "Reward-Modulated Local Learning in Spiking Encoders: Controlled Benchmarks with STDP and Hybrid Rate Readouts".
@@ -7,7 +7,7 @@ This repository contains the core reproducibility artifacts for the manuscript:
 - `code/tools/`: core run scripts + OpenML integrity checker.
 - `data/results/`: raw fixed-seed CSV outputs used for reported metrics.
 
-## One-command reviewer check
+## One-command check
 From repository root, run:
 
 ```bash
